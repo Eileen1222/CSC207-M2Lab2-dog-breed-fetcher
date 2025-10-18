@@ -54,7 +54,7 @@ public class DogApiBreedFetcher implements BreedFetcher {
             }
         }
         catch (BreedNotFoundException event) {
-            System.out.println(event.getMessage());
+           
             throw event;
         }
         catch (IOException e) {
